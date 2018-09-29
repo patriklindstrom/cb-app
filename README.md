@@ -1,4 +1,8 @@
 # cb-app
+An progressive web app to improve conversations. 
+
+## Links ##
+
 
 ## Project setup
 ```
