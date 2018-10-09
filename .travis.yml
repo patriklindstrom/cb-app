@@ -3,3 +3,6 @@ deploy:
   api_key:
     secure: iBiFXG0nV8kRY+1+1gr7mhAKH9VWOK3VwHJ6o+dWn5ARjYG4CHD+7mV5I+/2YoVJCsUN/EVRrs2L0iiaINmNY8PW9hTFz6he14RTBrIU8GLDhsi4MwmC7/AzO/CEvGx3G5CqP8Yni0xCw/Wq/KLmoPVDxWxxSo5YKPqXtXIQLni+xSOGsN3xhFteMvkuZizzr+et/iNVTPthHIiGX9hk0ZU0MstCHaCgmD8jLQhOekrgTu7cYcBo/gncZMu9GIzNK1oMFTMQXVd2sz63IkCjvuOvYcL5TJVyHp0UD08FtzsNhKsLUHlViQmiapApd7COnQ1csLUlqTAel8d4/VC83rh0G0KTeURclnsN5fXqn0tiAG3biG/90gqfAde2Brx7HUeslE1SruNmH/0y8AIAOcpb+UPaX6bgChlp6rfNWyWjDvhlaAFNfp2xPgQPM4LoO5+z39NhIhlFe25jmM8XpQ+QlPGZCXQPykiTPmipxmvL4r/uQM/fePnZQz2oUmcGwsUcIV1YBbs4ii3roDyAtYaV/2GGw+t4lXrb9NsfJXWS7HefkASlZv8+aiwLLm0XNpeEHJorxfaHbsfyyyC2C8CCfItYEWlYAjosWzLu7diCmgt1zzSBbIYjsv1WvudjfXjCj5/Quf861TPrYc9mrJUFASvHQXNRTrPKkdSFgqE=
   app: conversationbox
+  node_js:
+  - "node"
+  - "10.10.0"
