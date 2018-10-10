@@ -1,8 +1,15 @@
 const express = require('express');
 
 const app = express();
-app.get('/hello'),(req,res)=> res.send({cm:'What superpower would you prefer, flight or invisiblity?'})
-app.get('/api'),(req,res)=> res.send({link:'./apidocumentation'})
+// Server routes...
+app.get('/hello',(req,res)=> res.send({cm:'What superpower would you like? To fly or be invisible?'}));
+app.get('/api',(req,res)=> res.send({link:'./apidocumentation'}));
+app.get('/api/cm',(req,res)=> res.send(
+    {cm:{
+        titel:'What superpower would you like? To fly or be invisible?'},
+        cat:"casual"
+     }
+));
 
 if(process.env.NODE_ENV !=='production'){
     console.log('We are in development mode')
